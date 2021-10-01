@@ -13,6 +13,13 @@ Picasso
 Retrofit
 ```
 
+### Estructura
+
+```
+MVP
+
+```
+
 ## Imagenes
 
 ![ezgif-5-7799cd8b476c](https://user-images.githubusercontent.com/38332341/135580074-90e6a1ae-c356-48b2-82ec-b18d44be90e6.gif)
