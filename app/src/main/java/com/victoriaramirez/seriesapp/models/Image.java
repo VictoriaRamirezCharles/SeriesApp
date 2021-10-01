@@ -2,8 +2,8 @@ package com.victoriaramirez.seriesapp.models;
 
 public class Image {
 
-    public String medium;
-    public String original;
+    private String medium;
+    private String original;
 
     public String getMedium() {
         return medium;

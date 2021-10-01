@@ -45,7 +45,7 @@ public class RecyclerViewFragmentPresenter implements IRecylerViewFragmentPresen
 
             @Override
             public void onFailure(Call<SerieResponse> call, Throwable t) {
-                Toast.makeText(context, "¡Al pasó en la conexión! Intenta de nuevo", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "¡Algo pasó en la conexión! Intenta de nuevo", Toast.LENGTH_LONG).show();
                 Log.e("FALLO LA CONEXION", t.toString());
             }
         });

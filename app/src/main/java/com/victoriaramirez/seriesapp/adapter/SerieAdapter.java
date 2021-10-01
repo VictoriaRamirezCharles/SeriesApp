@@ -44,7 +44,7 @@ public class SerieAdapter extends RecyclerView.Adapter<SerieAdapter.SerieViewHol
         final Serie serie = series.get(position);
 
         Picasso.with(activity)
-                .load(serie.getImage().original)
+                .load(serie.getImage().getOriginal())
                 .placeholder(R.drawable.ic_launcher_background)
                 .into(serieViewHolder.imgFoto);
 
@@ -59,7 +59,7 @@ public class SerieAdapter extends RecyclerView.Adapter<SerieAdapter.SerieViewHol
 
 
                 Intent intent = new Intent(activity, SerieDetail.class);
-                intent.putExtra("url_image", serie.getImage().medium);
+                intent.putExtra("url_image", serie.getImage().getMedium());
                 intent.putExtra("status", serie.getStatus());
 
 
