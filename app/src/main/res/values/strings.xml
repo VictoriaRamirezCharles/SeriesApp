@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Series</string>
+    <string name="name">Anahi Salgado</string>
+    <string name="telefono">55557777</string>
+    <string name="email">anahi@gmail.com</string>
+    <string name="pName">Name</string>
+    <string name="pStatus">Online</string>
+    <string name="transicion_foto">animacion_foto</string>
+    <string name="hello_blank_fragment">Hello</string>
+</resources>
